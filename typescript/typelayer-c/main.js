@@ -1,5 +1,0 @@
-/*!
- * typelayer-c
- */
-
-'use strict';

@@ -1,8 +1,0 @@
-import * as myFirstPackageSchemasMyFirstModuleStructures from "./structures";
-import * as typelayerCommonDynamic from "typelayer-common";
-export declare function dynamicGetMyEnumStructure(dynamicObject: typelayerCommonDynamic.Decoder): myFirstPackageSchemasMyFirstModuleStructures.MyEnumStructure;
-export declare function dynamicGetObjMyEnumStructure(dynamicObject: typelayerCommonDynamic.Decoder): myFirstPackageSchemasMyFirstModuleStructures.MyEnumStructure;
-export declare function dynamicPutMyEnumStructure(dynamicObject: typelayerCommonDynamic.Encoder, inputObject: myFirstPackageSchemasMyFirstModuleStructures.MyEnumStructure): void;
-export declare function dynamicGetMyFirstStructure(dynamicObject: typelayerCommonDynamic.Decoder): myFirstPackageSchemasMyFirstModuleStructures.MyFirstStructure;
-export declare function dynamicGetObjMyFirstStructure(dynamicObject: typelayerCommonDynamic.Decoder): myFirstPackageSchemasMyFirstModuleStructures.MyFirstStructure;
-export declare function dynamicPutMyFirstStructure(dynamicObject: typelayerCommonDynamic.Encoder, inputObject: myFirstPackageSchemasMyFirstModuleStructures.MyFirstStructure): void;
