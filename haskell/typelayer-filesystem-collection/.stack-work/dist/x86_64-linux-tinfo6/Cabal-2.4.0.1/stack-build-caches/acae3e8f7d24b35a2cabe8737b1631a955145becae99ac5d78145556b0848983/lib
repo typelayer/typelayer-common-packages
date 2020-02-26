@@ -1,0 +1,16 @@
+/home/hansonkd/typelayer/typelayer-cli/typelayer/haskell/typelayer-filesystem-collection/src/TypelayerFilesystemCollection.hs:
+  hash: dd8c89c318766d5671c56b244e866b7fb72c83ffc653f31da3681ca754b91d01
+  size: 132
+  modtime: 1578707985
+/home/hansonkd/typelayer/typelayer-cli/typelayer/haskell/typelayer-filesystem-collection/package.yaml:
+  hash: eebb34a5684efe6120f0e258c7bf2b4531a9c3b2c44e3bacf44d02af70c8ffa8
+  size: 474
+  modtime: 1578707985
+/home/hansonkd/typelayer/typelayer-cli/typelayer/haskell/typelayer-filesystem-collection/typelayer-filesystem-collection.cabal:
+  hash: dea36af674eb84d0295067f2ba85a3d4a630ed34aceb71b7341f3ddb15443d6f
+  size: 1192
+  modtime: 1578705658
+? /home/hansonkd/typelayer/typelayer-cli/typelayer/haskell/typelayer-filesystem-collection/src/TypelayerFilesystemCollection/Collection.hs
+: hash: 802bdd563ca51f5e5bcbbc682d3efb09ff33078894bb7958aebe2cc1a9a91f5d
+  size: 2449
+  modtime: 1578707985

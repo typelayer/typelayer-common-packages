@@ -1,0 +1,4 @@
+#
+graft typelayer_common
+prune tests
+global-exclude *.py[co]

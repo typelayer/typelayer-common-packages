@@ -1,0 +1,9 @@
+MANIFEST.in
+setup.py
+typelayer_django/__init__.py
+typelayer_django/py.typed
+typelayer_django/views.py
+typelayer_django.egg-info/PKG-INFO
+typelayer_django.egg-info/SOURCES.txt
+typelayer_django.egg-info/dependency_links.txt
+typelayer_django.egg-info/top_level.txt

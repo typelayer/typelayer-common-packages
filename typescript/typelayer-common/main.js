@@ -1,0 +1,5 @@
+/*!
+ * typelayer-common
+ */
+
+'use strict';

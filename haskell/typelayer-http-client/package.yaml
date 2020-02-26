@@ -1,0 +1,30 @@
+name: typelayer-http-client
+dependencies:
+    - base
+    - text
+    - bytestring
+    - mtl
+    - binary
+    - containers
+    - time
+    - typelayer-common
+    - case-insensitive
+    - http-client
+    - http-client-tls
+    - http-types
+
+library:
+  ghc-options:
+  - -threaded
+  - -O0
+  source-dirs: src/
+tests:
+  typelayer-http-client-test:
+    main: Spec.hs
+    source-dirs: src/tests
+    ghc-options:
+    - -threaded
+    - -O0
+    dependencies:
+        - typelayer-http-client
+        - hspec

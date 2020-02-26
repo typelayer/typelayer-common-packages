@@ -1,0 +1,30 @@
+name: typelayer-common
+dependencies:
+    - base
+    - text
+    - bytestring
+    - mtl
+    - binary
+    - containers
+    - time
+    - array
+    - binary
+    - scientific
+    - unordered-containers
+    - vector
+
+library:
+  ghc-options:
+  - -threaded
+  - -O0
+  source-dirs: src/
+tests:
+  typelayer-common-test:
+    main: Spec.hs
+    source-dirs: src/tests
+    ghc-options:
+    - -threaded
+    - -O0
+    dependencies:
+        - typelayer-common
+        - hspec

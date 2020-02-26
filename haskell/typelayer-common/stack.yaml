@@ -1,0 +1,14 @@
+flags: {}
+system-ghc: true
+resolver: lts-13.22
+allow-different-user: true
+extra-path:
+- /usr/local/typelayer-packages/haskell/generated
+packages:
+- .
+extra-deps:
+    - array-0.5.3.0
+    - binary-0.8.6.0
+    - scientific-0.3.6.2
+    - unordered-containers-0.2.9.0
+    - vector-0.12.0.3

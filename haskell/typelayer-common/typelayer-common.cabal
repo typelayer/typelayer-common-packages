@@ -1,0 +1,72 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.31.2.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: 0cf96dbf3c05df140b40ed980b089296be79243ae43e7e391e907f5ec423a11c
+
+name:           typelayer-common
+version:        0.0.0
+build-type:     Simple
+
+library
+  exposed-modules:
+      TypelayerCommon
+      TypelayerCommon.Application
+      TypelayerCommon.CLI
+      TypelayerCommon.Collections
+      TypelayerCommon.Documentation
+      TypelayerCommon.Dynamic
+      TypelayerCommon.Encodings.Json
+      TypelayerCommon.Encodings.Msgpack
+      TypelayerCommon.Exceptions
+      TypelayerCommon.ExceptionsEncoding
+      TypelayerCommon.Prelude
+      TypelayerCommon.Sql
+      TypelayerCommon.TransportClient
+      TypelayerCommon.Transports.Http
+      TypelayerCommon.Types
+      TypelayerCommon.Wire
+  other-modules:
+      Paths_typelayer_common
+  hs-source-dirs:
+      src/
+  ghc-options: -threaded -O0
+  build-depends:
+      array
+    , base
+    , binary
+    , bytestring
+    , containers
+    , mtl
+    , scientific
+    , text
+    , time
+    , unordered-containers
+    , vector
+  default-language: Haskell2010
+
+test-suite typelayer-common-test
+  type: exitcode-stdio-1.0
+  main-is: Spec.hs
+  other-modules:
+      Paths_typelayer_common
+  hs-source-dirs:
+      src/tests
+  ghc-options: -threaded -O0
+  build-depends:
+      array
+    , base
+    , binary
+    , bytestring
+    , containers
+    , hspec
+    , mtl
+    , scientific
+    , text
+    , time
+    , typelayer-common
+    , unordered-containers
+    , vector
+  default-language: Haskell2010

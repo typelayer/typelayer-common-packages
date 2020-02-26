@@ -1,0 +1,22 @@
+{
+  "name": "typelayer-http-server",
+  "version": "0.0.1",
+  "sideEffects": false,
+  "main": "bin/index.js",
+  "types": "bin/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc",
+    "test": "mocha -r ts-node/register -r tsconfig-paths/register tests/**/*.spec.ts"
+  },
+  "dependencies": {
+
+  },
+  "devDependencies": {
+
+    "@types/node": "^11.10.5",
+    "ts-node": "^8.0.2",
+    "tsconfig-paths": "^3.8.0",
+    "typescript": "^3.6.2"
+  }
+}

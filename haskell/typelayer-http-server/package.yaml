@@ -1,0 +1,31 @@
+name: typelayer-http-server
+dependencies:
+    - base
+    - text
+    - bytestring
+    - mtl
+    - binary
+    - containers
+    - time
+    - typelayer-common
+    - case-insensitive
+    - http-types
+    - wai
+    - wai-cors
+    - warp
+
+library:
+  ghc-options:
+  - -threaded
+  - -O0
+  source-dirs: src/
+tests:
+  typelayer-http-server-test:
+    main: Spec.hs
+    source-dirs: src/tests
+    ghc-options:
+    - -threaded
+    - -O0
+    dependencies:
+        - typelayer-http-server
+        - hspec

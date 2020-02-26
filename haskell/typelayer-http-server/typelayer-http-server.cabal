@@ -1,0 +1,62 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.31.2.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: 109adacb9cb7942a5e7f43af50357e2a11ff1757e3f4879c627cd83c7a4c60e1
+
+name:           typelayer-http-server
+version:        0.0.0
+build-type:     Simple
+
+library
+  exposed-modules:
+      TypelayerHttpServer
+      TypelayerHttpServer.Transport
+  other-modules:
+      Paths_typelayer_http_server
+  hs-source-dirs:
+      src/
+  ghc-options: -threaded -O0
+  build-depends:
+      base
+    , binary
+    , bytestring
+    , case-insensitive
+    , containers
+    , http-types
+    , mtl
+    , text
+    , time
+    , typelayer-common
+    , wai
+    , wai-cors
+    , warp
+  default-language: Haskell2010
+
+test-suite typelayer-http-server-test
+  type: exitcode-stdio-1.0
+  main-is: Spec.hs
+  other-modules:
+      Paths_typelayer_http_server
+  hs-source-dirs:
+      src/tests
+  ghc-options: -threaded -O0
+  build-depends:
+      base
+    , binary
+    , bytestring
+    , case-insensitive
+    , containers
+    , hspec
+    , http-types
+    , mtl
+    , text
+    , time
+    , typelayer-common
+    , typelayer-http-server
+    , wai
+    , wai-cors
+    , warp
+  default-language: Haskell2010

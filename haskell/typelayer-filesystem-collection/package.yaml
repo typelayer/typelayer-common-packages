@@ -1,0 +1,28 @@
+name: typelayer-filesystem-collection
+dependencies:
+    - base
+    - text
+    - bytestring
+    - mtl
+    - binary
+    - containers
+    - time
+    - typelayer-common
+    - directory
+    - filepath
+
+library:
+  ghc-options:
+  - -threaded
+  - -O0
+  source-dirs: src/
+tests:
+  typelayer-filesystem-collection-test:
+    main: Spec.hs
+    source-dirs: src/tests
+    ghc-options:
+    - -threaded
+    - -O0
+    dependencies:
+        - typelayer-filesystem-collection
+        - hspec

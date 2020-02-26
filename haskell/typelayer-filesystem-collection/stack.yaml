@@ -1,0 +1,12 @@
+flags: {}
+system-ghc: true
+resolver: lts-13.22
+allow-different-user: true
+extra-path:
+- /usr/local/typelayer-packages/haskell/generated
+packages:
+- .
+extra-deps:
+    - vendor/typelayer-common
+    - directory-1.3.3.0
+    - filepath-1.4.2.1

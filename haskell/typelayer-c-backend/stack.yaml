@@ -1,0 +1,11 @@
+flags: {}
+system-ghc: true
+resolver: lts-13.22
+allow-different-user: true
+extra-path:
+- /usr/local/typelayer-packages/haskell/generated
+packages:
+- .
+extra-deps:
+    - vendor/typelayer-common
+    - postgresql-simple-0.6.2

@@ -1,0 +1,4 @@
+#
+graft my_first_package
+prune tests
+global-exclude *.py[co]

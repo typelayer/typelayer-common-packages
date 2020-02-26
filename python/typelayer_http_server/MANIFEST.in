@@ -1,0 +1,4 @@
+#
+graft typelayer_http_server
+prune tests
+global-exclude *.py[co]

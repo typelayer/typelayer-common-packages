@@ -1,0 +1,56 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.31.2.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: e93479575277321bcbb337931190488bc0d44dfb995bb974a1769da73d6068f9
+
+name:           typelayer-filesystem-collection
+version:        0.0.0
+build-type:     Simple
+
+library
+  exposed-modules:
+      TypelayerFilesystemCollection
+      TypelayerFilesystemCollection.Collection
+  other-modules:
+      Paths_typelayer_filesystem_collection
+  hs-source-dirs:
+      src/
+  ghc-options: -threaded -O0
+  build-depends:
+      base
+    , binary
+    , bytestring
+    , containers
+    , directory
+    , filepath
+    , mtl
+    , text
+    , time
+    , typelayer-common
+  default-language: Haskell2010
+
+test-suite typelayer-filesystem-collection-test
+  type: exitcode-stdio-1.0
+  main-is: Spec.hs
+  other-modules:
+      Paths_typelayer_filesystem_collection
+  hs-source-dirs:
+      src/tests
+  ghc-options: -threaded -O0
+  build-depends:
+      base
+    , binary
+    , bytestring
+    , containers
+    , directory
+    , filepath
+    , hspec
+    , mtl
+    , text
+    , time
+    , typelayer-common
+    , typelayer-filesystem-collection
+  default-language: Haskell2010
